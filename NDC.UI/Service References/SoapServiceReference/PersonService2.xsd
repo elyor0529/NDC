@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NDC.Common.ViewModels" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NDC.Common.ViewModels" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49767/PersonService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/NDC.SOAP.Models" />
+  <xs:complexType name="SearchModel">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NDC.SOAP.Models" minOccurs="0" name="Gender" type="q1:Gender" />
+      <xs:element minOccurs="0" name="MaxAge" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MaxHeigth" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MaxWeight" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="MinAge" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MinHeigth" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MinWeight" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Names" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SearchModel" nillable="true" type="tns:SearchModel" />
+</xs:schema>

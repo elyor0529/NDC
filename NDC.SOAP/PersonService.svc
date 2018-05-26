@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="NDC.SOAP.PersonService" CodeBehind="PersonService.svc.cs" Factory="NDC.SOAP.WcfServiceFactory" %>

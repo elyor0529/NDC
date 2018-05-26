@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC.UI", "NDC.UI\NDC.UI.csproj", "{C6F5CB5A-9772-4B61-B40A-105FBD245B9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA} = {B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC.SOAP", "NDC.SOAP\NDC.SOAP.csproj", "{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7BA967B0-D974-43E8-A4FF-2A24BF9B36C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tdd", "tdd", "{C00F45F5-5477-418E-9377-8A7F6F6D14F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC.UI.Tests", "NDC.UI.Tests\NDC.UI.Tests.csproj", "{3C83F9F1-9B18-43CA-946B-14522F702F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC.Common", "NDC.Common\NDC.Common.csproj", "{2BA7A580-695D-40DA-84B8-AC4E68D7FE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC.SOAP.Tests", "NDC.SOAP.Tests\NDC.SOAP.Tests.csproj", "{90804DF7-2F08-4E08-B163-CB8F51352742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F5CB5A-9772-4B61-B40A-105FBD245B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F5CB5A-9772-4B61-B40A-105FBD245B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F5CB5A-9772-4B61-B40A-105FBD245B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F5CB5A-9772-4B61-B40A-105FBD245B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C83F9F1-9B18-43CA-946B-14522F702F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C83F9F1-9B18-43CA-946B-14522F702F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C83F9F1-9B18-43CA-946B-14522F702F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C83F9F1-9B18-43CA-946B-14522F702F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA7A580-695D-40DA-84B8-AC4E68D7FE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA7A580-695D-40DA-84B8-AC4E68D7FE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA7A580-695D-40DA-84B8-AC4E68D7FE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA7A580-695D-40DA-84B8-AC4E68D7FE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90804DF7-2F08-4E08-B163-CB8F51352742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90804DF7-2F08-4E08-B163-CB8F51352742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90804DF7-2F08-4E08-B163-CB8F51352742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90804DF7-2F08-4E08-B163-CB8F51352742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6F5CB5A-9772-4B61-B40A-105FBD245B9B} = {7BA967B0-D974-43E8-A4FF-2A24BF9B36C7}
+		{B5656F9F-01F7-4230-AAF2-1BBBDBA09CCA} = {7BA967B0-D974-43E8-A4FF-2A24BF9B36C7}
+		{3C83F9F1-9B18-43CA-946B-14522F702F74} = {C00F45F5-5477-418E-9377-8A7F6F6D14F5}
+		{2BA7A580-695D-40DA-84B8-AC4E68D7FE36} = {7BA967B0-D974-43E8-A4FF-2A24BF9B36C7}
+		{90804DF7-2F08-4E08-B163-CB8F51352742} = {C00F45F5-5477-418E-9377-8A7F6F6D14F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
